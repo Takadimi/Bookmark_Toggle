@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Bookmark bar toggle",
+    "description": "Switches between my personal bookmarks and my work bookmarks",
+    "version": "1.1",
+
+    "background" : {
+        "scripts": ["background.js"]
+    },
+
+    "browser_action": {
+        "default_title": "Bookmark Toggle",
+        "default_icon": "Bookmark_Toggle_19.png"
+    },
+
+    "permissions": [
+        "storage",
+        "bookmarks"
+    ]
+}
